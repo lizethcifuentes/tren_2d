@@ -73,6 +73,8 @@ line_b = c.create_line(BASE/2+125,270,BASE/2+72,ALTURA/2+30, fill="green",width=
 nom_l = c.create_text(BASE/2+70,ALTURA/2+90, anchor="center", text="lizeth cifuentes",font=("Arial",20, "bold"), fill="red",
 activefill="cyan")
 
+
+
 #----------------------
 # FRAME DE CONTROLES 
 # -----------------------
