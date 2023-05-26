@@ -36,7 +36,12 @@ c.place(x=10, y=10)
 #lineas
 linea_central_horizontal= c.create_line(0,ALTURA/2,BASE,ALTURA/2, fill="green")
 linea_vertical= c.create_line(BASE/2,0,BASE/2,ALTURA, fill="green")
+
+
+#CIRCULO TREN
+circ_11 = c.create_oval(130,ALTURA-8-50,BASE/2-40,ALTURA-172, fill="green")
 #rectangulos
+
 #dibujar rectangulo
 rect_1 = c.create_rectangle(BASE/2-40,BASE/2+190,410,ALTURA-180,fill="pink", outline="blue")
 rect_3 = c.create_rectangle(BASE/2+30,BASE/2-50,410,ALTURA-180,fill="lime green", outline="black")
@@ -53,23 +58,20 @@ circ_4 = c.create_oval(BASE/2+45,200,BASE-85,ALTURA/2+45, fill="white")
 circ_3 = c.create_oval(BASE/2+190,BASE/2+150,370,ALTURA-20, fill="white")
 circ_2 = c.create_oval(BASE/2+110,BASE/2+150,290,ALTURA-20, fill="white")
 circ_1 = c.create_oval(BASE/2-30,BASE/2+150,270,ALTURA-20, fill="white")
-
+#circ_11 = c.create_oval(90,ALTURA-8-50,BASE/2-40,ALTURA-170, fill="green")
 #rectangulos llantas
 rect_10 = c.create_rectangle(BASE/2+90,BASE/2+180,390,ALTURA-40,fill="thistle")
 rect_11 = c.create_rectangle(BASE/2+10,BASE/2+180,310,ALTURA-40,fill="thistle")
 
 
 #cara
-circ_11 = c.create_oval(BASE/2+60,220,BASE-150,ALTURA/2+10, fill="green")
-#circ_12 = c.create_oval(BASE)
+circ_12 = c.create_oval(BASE/2+60,220,BASE-150,ALTURA/2+10, fill="green")
+circ_13 = c.create_oval(BASE/2+100,220,BASE-110,ALTURA/2+10, fill="green")
+line_b = c.create_line(BASE/2+125,270,BASE/2+72,ALTURA/2+30, fill="green",width=5)
 
-
-
-
-
-
-
-
+#nombre
+nom_l = c.create_text(BASE/2+70,ALTURA/2+90, anchor="center", text="lizeth cifuentes",font=("Arial",20, "bold"), fill="red",
+activefill="cyan")
 
 #----------------------
 # FRAME DE CONTROLES 
